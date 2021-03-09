@@ -1,0 +1,44 @@
+body {
+  width: 100%;
+}
+.container {
+  margin-top: 50px;
+  max-width: 900px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container .content {
+  line-height: 3rem;
+}
+
+.audio {
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+
+.rt {
+  position: absolute;
+  right: 500px;
+}
+
+@media (max-width: 900px) {
+  .img {
+    width: 450px;
+  }
+  .audio {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    margin-bottom: 200px;
+    height: 30px;
+  }
+  .rt {
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+  }
+}
